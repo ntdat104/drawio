@@ -1,0 +1,205 @@
+<mxfile host="65bd71144e">
+    <diagram id="akY1FRD0TtEy-9uE2H6J" name="Page-1">
+        <mxGraphModel dx="954" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;" parent="1" source="15" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="File PDF&lt;br&gt;báo cáo tài chính" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="1480" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&#10;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;image&lt;/span&gt;&#10;&#10;" style="edgeStyle=none;html=1;" parent="1" source="16" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="pdf2image&lt;br&gt;(convert pdf -&amp;gt; image)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="1485" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=none;html=1;" parent="1" source="21" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;" parent="1" source="21" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="edgeStyle=none;html=1;" parent="1" source="21" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;" parent="1" source="21" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="820" y="1640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="Image Direction&lt;br&gt;(Model)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="980" y="1490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Đúng" style="edgeStyle=none;html=1;" parent="1" source="25" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Sai" style="edgeStyle=none;html=1;" parent="1" source="25" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Kiểm tra&lt;br&gt;hướng ảnh" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1240" y="1470" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="edgeStyle=none;html=1;" parent="1" source="27" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=none;html=1;" parent="1" source="27" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Text + Header" style="edgeStyle=none;html=1;" parent="1" source="27" target="42" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="Table" style="edgeStyle=none;html=1;" parent="1" source="27" target="58" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1780" y="1640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="Layout Analysis" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1450" y="1490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;" parent="1" source="29" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Xoay ảnh" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1230" y="1330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Lấy ra các ảnh của 4 hướng: 0, 90, 180, 270 rồi để vào các folder -&amp;gt; gán nhãn" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="965" y="1330" width="150" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" style="edgeStyle=none;html=1;" parent="1" source="34" target="79" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1040" y="1770" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="Sử dụng paddle-clas để train model&lt;br&gt;(https://github.com/PaddlePaddle/PaddleClas)&lt;br&gt;model/cls" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="910" y="1650" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Train: 2000&lt;br&gt;Val: 500&lt;br&gt;Test: 100" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="1650" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Sử dụng labelImg để gán nhãn" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1450" y="1330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="" style="edgeStyle=none;html=1;" parent="1" source="40" target="80" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Sử dụng paddle-detection + model &quot;ppyolov2&quot; (pretrain)&lt;br&gt;(https://github.com/PaddlePaddle/PaddleDetection)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1356.25" y="1650" width="307.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="edgeStyle=none;html=1;" parent="1" source="42" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="edgeStyle=none;html=1;" parent="1" source="42" target="47" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;html=1;" parent="1" source="42" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2630" y="1460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="OCR&lt;br&gt;(detect + regconize)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1780" y="1330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="edgeStyle=none;html=1;" parent="1" source="44" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Sử dụng PPOCRLabel để gán nhãn&lt;br&gt;(https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.6/PPOCRLabel)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1460" y="1160" width="430" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="" style="edgeStyle=none;html=1;" parent="1" source="47" target="82" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Sử dụng paddle-ocr để train với dataset đã label" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1980" y="1160" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Sau khi gán nhãn thì sử dụng paddle-ocr để train với dữ liệu vừa rồi, rồi lại tiếp tục sử dụng tool để gán nhãn rồi lại train lại" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1532.5" y="1020" width="285" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;html=1;" parent="1" source="53" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Data - detection&lt;br&gt;Train: 10000&lt;br&gt;Val: 1000&lt;br&gt;Test: 500" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1340" y="1000" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="55" target="44" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Data - recognize&lt;br&gt;Train: 40000&lt;br&gt;Val: 5000&lt;br&gt;Test: 500" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1290" y="1150" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=none;html=1;" parent="1" source="58" target="61" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2020" y="1560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;html=1;" parent="1" source="58" target="63" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2060" y="1680" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="Table Structure" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1780" y="1650" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" style="edgeStyle=none;html=1;" parent="1" source="61" target="67" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2300" y="1680" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="" style="edgeStyle=none;html=1;" parent="1" source="61" target="71" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Table Structure Analysis" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="2060" y="1760" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=none;html=1;" parent="1" source="63" target="67" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2270" y="1700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="OCR&lt;br&gt;(detect + regconize)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="2060" y="1580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="Sử dụng 3 quy tắc: Tọa độ điểm trung tâm + IOU + Khoảng cách&amp;nbsp;" style="edgeStyle=none;html=1;" parent="1" source="67" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2630" y="1470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="Khôi phục bảng" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="2340" y="1650" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="Khôi phục docs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="2590" y="1330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="edgeStyle=none;html=1;" parent="1" source="71" target="73" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="Sử dụng model (PubTabNet) liệu đã có sẵn trên paddle&lt;br&gt;(https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_en/dataset/table_datasets_en.md)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1842.5" y="1910" width="585" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="" style="edgeStyle=none;html=1;" parent="1" source="73" target="75" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="Output là dạng HTML của bảng: &amp;lt;th&amp;gt;, &amp;lt;td&amp;gt;, &amp;lt;table&amp;gt; + tọa độ các dòng chữ trong bảng" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="2015" y="2040" width="240" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="So sánh với các tọa độ detect được trong phần OCR để thay thế và khôi phục lại" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="2020" y="2180" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="Tiền xử lý ảnh:&lt;br&gt;Resize + Padding + Chuẩn hóa Normalize (em chưa tìm hiểu sâu về thuật toán)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="1280" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="Sử dụng model PULC để phân loại hướng" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="1760" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="Sử dụng mạng RCNN" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1445" y="1790" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="Sử dụng DBNet để phát hiện các dòng văn bản" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="2047.5" y="1020" width="155" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
